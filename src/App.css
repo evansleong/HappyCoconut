@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+  width: 100vw;
+  height: 100vh;
+}
+
+.image{
+  width: 250px;
+  height: 250px;
+}
+
+#clickButton {
+  position: absolute;
+  margin-right: 150px;
+  transition: 0.5s;
+}
+
+#closeButton {
+  position: absolute;
+  margin-left: 150px;
+  transition: 0.5s;
+}
+
+@media (max-width:767.5px){
+  .image{
+    width: 350px;
+    height: 350px;
+    align-items: center;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
